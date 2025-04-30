@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.NavContainer{
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: linear-gradient(Khaki, #fff);
+}
+
+#logo{
+    float: left;
+    margin-right: 10px;
+    height: 65px;
+}
+
+#brand_name{
+    font-size: 55px;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Navigation{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    font-size: 30px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.space-1 img{
+    max-width: 100%;
+    padding: 50px 0;    
+}
+
+.space-1 h1{
+    font-size: 45px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.space-1 p{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    background: khaki;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: rgb(161, 155, 94);
+}
+
+.categories{
+    margin: 70px 0;
+}
+
+.space-2{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.space-2 img{
+    height: 400px;
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.space-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.space-3:hover{
+    transform: translateY(-5px);
+}
+
+.space-3 img{
+    height: 300px;
+
+}
+
+.space-3 p{
+    font-size: 14px;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+
+.title::after{
+    content: '';
+    background: khaki;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rating .bx{
+    color: gold;
+}
+
+.testimonial{
+    padding-top: 100px;
+
+}
+
+.testimonial .space-2{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial .space-2 img{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.brands{
+    margin: 100px auto;
+}
+
+.brands .space-2 img{
+    height: 50px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.footer{
+    background: khaki;
+    color: black;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.product{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.product .space-1 img{
+    padding: 0;
+}
+
+.product input{
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.preview-img img{
+    height: 240px;
+}
+
+.preview-container{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#img4-nezuko{
+    margin-left: 100px;
+}
+
+#img4-tanjiro{
+    margin-left: 60px;
+}
+
+#im4-gogeta{
+    margin-left: 11px;
+}
